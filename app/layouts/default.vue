@@ -19,6 +19,7 @@
         <v-list density="compact" nav>
           <v-list-item to="/" prepend-icon="mdi-folder" title="Dashboard" value="myfiles"></v-list-item>
           <v-list-item to="/inventory" prepend-icon="mdi-account-multiple" title="Inventory" value="shared"></v-list-item>
+          <v-list-item to="/category" prepend-icon="mdi-account-multiple" title="category" value="shared"></v-list-item>
           <v-list-item prepend-icon="mdi-star" title="Users" value="starred"></v-list-item>
         </v-list>
       </v-navigation-drawer>

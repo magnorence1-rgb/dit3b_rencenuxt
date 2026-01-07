@@ -28,7 +28,7 @@
 <script  setup>
  const search = ref('')
      const { data: category} = await useFetch
-     ('http://localhost:1337/api/categories');
+     ('http://localhost:1337/api/inventories');
 
   const headers = [
   
